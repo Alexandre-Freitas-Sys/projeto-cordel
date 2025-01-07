@@ -1,1 +1,65 @@
 @charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, bady{
+    background-color: darkgray;
+    min-height: 100vh;
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+header > h1{
+    font-variant: small-caps; /*Coloca todas as letras em maiusculas.*/
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover{
+    color: darkgoldenrod ;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+section.normal{
+    background-color: white;
+    color: black;
+}
+
+section.com_imagem{
+    background-color: rgba(0, 0, 0, 0.699);
+    color: white;
+}
+
+section.com_imagem >p{
+    max-width: 400px;
+    background-color: rgba(0, 0, 0, 0.589);
+}
+footer{
+    color: aquamarine;
+    background-color: black;
+    font-family: monospace;
+    font-style: normal;
+    padding: 10px;
+    text-align: center;
+}
